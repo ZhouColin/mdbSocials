@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F2181E2240A20A90035A5B2 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2181E1240A20A90035A5B2 /* SignupViewController.swift */; };
 		ACD5909A2401D18E005E2688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD590992401D18E005E2688 /* AppDelegate.swift */; };
 		ACD5909C2401D18E005E2688 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD5909B2401D18E005E2688 /* SceneDelegate.swift */; };
-		ACD5909E2401D18E005E2688 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD5909D2401D18E005E2688 /* ViewController.swift */; };
+		ACD5909E2401D18E005E2688 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD5909D2401D18E005E2688 /* LoginViewController.swift */; };
 		ACD590A12401D18E005E2688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD5909F2401D18E005E2688 /* Main.storyboard */; };
 		ACD590A32401D190005E2688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD590A22401D190005E2688 /* Assets.xcassets */; };
 		ACD590A62401D190005E2688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD590A42401D190005E2688 /* LaunchScreen.storyboard */; };
@@ -20,10 +21,11 @@
 /* Begin PBXFileReference section */
 		08E57691D62488BFE2FF86A4 /* Pods-mdbSocials.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mdbSocials.debug.xcconfig"; path = "Target Support Files/Pods-mdbSocials/Pods-mdbSocials.debug.xcconfig"; sourceTree = "<group>"; };
 		6E46BF126D760BD32C59E632 /* Pods-mdbSocials.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mdbSocials.release.xcconfig"; path = "Target Support Files/Pods-mdbSocials/Pods-mdbSocials.release.xcconfig"; sourceTree = "<group>"; };
+		8F2181E1240A20A90035A5B2 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignupViewController.swift; path = /Users/genustori07/Documents/GitHub/mdbSocials/mdbSocials/mdbSocials/Controller/SignupViewController.swift; sourceTree = "<absolute>"; };
 		ACD590962401D18E005E2688 /* mdbSocials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mdbSocials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD590992401D18E005E2688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACD5909B2401D18E005E2688 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACD5909D2401D18E005E2688 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACD5909D2401D18E005E2688 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ACD590A02401D18E005E2688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACD590A22401D190005E2688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD590A52401D190005E2688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,7 +52,6 @@
 				08E57691D62488BFE2FF86A4 /* Pods-mdbSocials.debug.xcconfig */,
 				6E46BF126D760BD32C59E632 /* Pods-mdbSocials.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -60,6 +61,15 @@
 				D543A3B100EA478D9E3C4F1C /* Pods_mdbSocials.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F2181E02409F91B0035A5B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F2181E1240A20A90035A5B2 /* SignupViewController.swift */,
+				ACD5909D2401D18E005E2688 /* LoginViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		ACD5908D2401D18E005E2688 = {
@@ -83,9 +93,9 @@
 		ACD590982401D18E005E2688 /* mdbSocials */ = {
 			isa = PBXGroup;
 			children = (
+				8F2181E02409F91B0035A5B2 /* Controller */,
 				ACD590992401D18E005E2688 /* AppDelegate.swift */,
 				ACD5909B2401D18E005E2688 /* SceneDelegate.swift */,
-				ACD5909D2401D18E005E2688 /* ViewController.swift */,
 				ACD5909F2401D18E005E2688 /* Main.storyboard */,
 				ACD590AD2401D255005E2688 /* GoogleService-Info.plist */,
 				ACD590A22401D190005E2688 /* Assets.xcassets */,
@@ -107,6 +117,7 @@
 				ACD590932401D18E005E2688 /* Frameworks */,
 				ACD590942401D18E005E2688 /* Resources */,
 				C85F2A98FEF2CC9324C4F143 /* [CP] Embed Pods Frameworks */,
+				5695A65DCCCFAD7780CFB27A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +198,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5695A65DCCCFAD7780CFB27A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mdbSocials/Pods-mdbSocials-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mdbSocials/Pods-mdbSocials-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mdbSocials/Pods-mdbSocials-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C85F2A98FEF2CC9324C4F143 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,8 +239,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD5909E2401D18E005E2688 /* ViewController.swift in Sources */,
+				ACD5909E2401D18E005E2688 /* LoginViewController.swift in Sources */,
 				ACD5909A2401D18E005E2688 /* AppDelegate.swift in Sources */,
+				8F2181E2240A20A90035A5B2 /* SignupViewController.swift in Sources */,
 				ACD5909C2401D18E005E2688 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
