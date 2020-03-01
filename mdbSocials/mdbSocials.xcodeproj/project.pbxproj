@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
 		AC98E250240A63F6005EB78A /* FeedView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC98E24F240A63F6005EB78A /* FeedView.storyboard */; };
 		AC98E254240A6434005EB78A /* FeedViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC98E253240A6434005EB78A /* FeedViewVC.swift */; };
 		AC98E257240A6761005EB78A /* FeedViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC98E256240A6761005EB78A /* FeedViewTableViewCell.swift */; };
 		AC98E259240A6935005EB78A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC98E258240A6935005EB78A /* DetailViewController.swift */; };
 		AC98E25B240AE3A9005EB78A /* FeedVC-TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC98E25A240AE3A9005EB78A /* FeedVC-TableView.swift */; };
 		AC98E264240B0ED5005EB78A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC98E263240B0ED5005EB78A /* Event.swift */; };
+		8F2181E2240A20A90035A5B2 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2181E1240A20A90035A5B2 /* SignupViewController.swift */; };
+		8F2181EB240B3DD50035A5B2 /* Reference.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2181EA240B3DD50035A5B2 /* Reference.storyboard */; };
+		8F2181ED240B40A50035A5B2 /* NewSocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2181EC240B40A40035A5B2 /* NewSocialViewController.swift */; };
 		ACD5909A2401D18E005E2688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD590992401D18E005E2688 /* AppDelegate.swift */; };
 		ACD5909C2401D18E005E2688 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD5909B2401D18E005E2688 /* SceneDelegate.swift */; };
-		ACD5909E2401D18E005E2688 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD5909D2401D18E005E2688 /* ViewController.swift */; };
+		ACD5909E2401D18E005E2688 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD5909D2401D18E005E2688 /* LoginViewController.swift */; };
 		ACD590A12401D18E005E2688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD5909F2401D18E005E2688 /* Main.storyboard */; };
 		ACD590A32401D190005E2688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD590A22401D190005E2688 /* Assets.xcassets */; };
 		ACD590A62401D190005E2688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD590A42401D190005E2688 /* LaunchScreen.storyboard */; };
@@ -32,10 +36,13 @@
 		AC98E258240A6935005EB78A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		AC98E25A240AE3A9005EB78A /* FeedVC-TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedVC-TableView.swift"; sourceTree = "<group>"; };
 		AC98E263240B0ED5005EB78A /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		8F2181E1240A20A90035A5B2 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignupViewController.swift; path = /Users/genustori07/Documents/GitHub/mdbSocials/mdbSocials/mdbSocials/Controller/SignupViewController.swift; sourceTree = "<absolute>"; };
+		8F2181EA240B3DD50035A5B2 /* Reference.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reference.storyboard; sourceTree = "<group>"; };
+		8F2181EC240B40A40035A5B2 /* NewSocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSocialViewController.swift; sourceTree = "<group>"; };
 		ACD590962401D18E005E2688 /* mdbSocials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mdbSocials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD590992401D18E005E2688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACD5909B2401D18E005E2688 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACD5909D2401D18E005E2688 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACD5909D2401D18E005E2688 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ACD590A02401D18E005E2688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACD590A22401D190005E2688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD590A52401D190005E2688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -121,6 +128,14 @@
 				AC98E258240A6935005EB78A /* DetailViewController.swift */,
 			);
 			path = DetailViewController;
+		8F2181E02409F91B0035A5B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F2181E1240A20A90035A5B2 /* SignupViewController.swift */,
+				ACD5909D2401D18E005E2688 /* LoginViewController.swift */,
+				8F2181EC240B40A40035A5B2 /* NewSocialViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		ACD5908D2401D18E005E2688 = {
@@ -148,14 +163,15 @@
 				AC98E260240AF8FB005EB78A /* Controllers */,
 				AC98E25F240AF8F4005EB78A /* Views */,
 				AC98E25E240AF8E8005EB78A /* Models */,
+				8F2181E02409F91B0035A5B2 /* Controller */,
 				ACD590992401D18E005E2688 /* AppDelegate.swift */,
 				ACD5909B2401D18E005E2688 /* SceneDelegate.swift */,
-				ACD5909D2401D18E005E2688 /* ViewController.swift */,
 				ACD5909F2401D18E005E2688 /* Main.storyboard */,
 				ACD590AD2401D255005E2688 /* GoogleService-Info.plist */,
 				ACD590A22401D190005E2688 /* Assets.xcassets */,
 				ACD590A42401D190005E2688 /* LaunchScreen.storyboard */,
 				ACD590A72401D190005E2688 /* Info.plist */,
+				8F2181EA240B3DD50035A5B2 /* Reference.storyboard */,
 			);
 			path = mdbSocials;
 			sourceTree = "<group>";
@@ -172,6 +188,7 @@
 				ACD590932401D18E005E2688 /* Frameworks */,
 				ACD590942401D18E005E2688 /* Resources */,
 				C85F2A98FEF2CC9324C4F143 /* [CP] Embed Pods Frameworks */,
+				5695A65DCCCFAD7780CFB27A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,6 +240,7 @@
 				ACD590A62401D190005E2688 /* LaunchScreen.storyboard in Resources */,
 				ACD590AE2401D255005E2688 /* GoogleService-Info.plist in Resources */,
 				AC98E250240A63F6005EB78A /* FeedView.storyboard in Resources */,
+				8F2181EB240B3DD50035A5B2 /* Reference.storyboard in Resources */,
 				ACD590A32401D190005E2688 /* Assets.xcassets in Resources */,
 				ACD590A12401D18E005E2688 /* Main.storyboard in Resources */,
 			);
@@ -251,6 +269,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5695A65DCCCFAD7780CFB27A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mdbSocials/Pods-mdbSocials-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mdbSocials/Pods-mdbSocials-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mdbSocials/Pods-mdbSocials-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C85F2A98FEF2CC9324C4F143 /* [CP] Embed Pods Frameworks */ = {
@@ -282,6 +317,10 @@
 				AC98E257240A6761005EB78A /* FeedViewTableViewCell.swift in Sources */,
 				ACD5909A2401D18E005E2688 /* AppDelegate.swift in Sources */,
 				AC98E259240A6935005EB78A /* DetailViewController.swift in Sources */,
+				ACD5909E2401D18E005E2688 /* LoginViewController.swift in Sources */,
+				8F2181ED240B40A50035A5B2 /* NewSocialViewController.swift in Sources */,
+				ACD5909A2401D18E005E2688 /* AppDelegate.swift in Sources */,
+				8F2181E2240A20A90035A5B2 /* SignupViewController.swift in Sources */,
 				ACD5909C2401D18E005E2688 /* SceneDelegate.swift in Sources */,
 				AC98E254240A6434005EB78A /* FeedViewVC.swift in Sources */,
 				AC98E25B240AE3A9005EB78A /* FeedVC-TableView.swift in Sources */,

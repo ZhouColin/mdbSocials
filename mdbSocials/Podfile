@@ -10,7 +10,12 @@ target 'mdbSocials' do
 
   # add pods for desired Firebase products
   # https://firebase.google.com/docs/ios/setup#available-pods
-  pod 'Firebase/Auth'
-  pod 'Firebase/Firestore'
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Firestore'
+pod 'FirebaseUI/Auth'
+pod 'Firebase/Storage'
+
+
 
 end
