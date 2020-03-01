@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8F2181E2240A20A90035A5B2 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2181E1240A20A90035A5B2 /* SignupViewController.swift */; };
+		8F2181EB240B3DD50035A5B2 /* Reference.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2181EA240B3DD50035A5B2 /* Reference.storyboard */; };
+		8F2181ED240B40A50035A5B2 /* NewSocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2181EC240B40A40035A5B2 /* NewSocialViewController.swift */; };
 		ACD5909A2401D18E005E2688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD590992401D18E005E2688 /* AppDelegate.swift */; };
 		ACD5909C2401D18E005E2688 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD5909B2401D18E005E2688 /* SceneDelegate.swift */; };
 		ACD5909E2401D18E005E2688 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD5909D2401D18E005E2688 /* LoginViewController.swift */; };
@@ -22,6 +24,8 @@
 		08E57691D62488BFE2FF86A4 /* Pods-mdbSocials.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mdbSocials.debug.xcconfig"; path = "Target Support Files/Pods-mdbSocials/Pods-mdbSocials.debug.xcconfig"; sourceTree = "<group>"; };
 		6E46BF126D760BD32C59E632 /* Pods-mdbSocials.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mdbSocials.release.xcconfig"; path = "Target Support Files/Pods-mdbSocials/Pods-mdbSocials.release.xcconfig"; sourceTree = "<group>"; };
 		8F2181E1240A20A90035A5B2 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignupViewController.swift; path = /Users/genustori07/Documents/GitHub/mdbSocials/mdbSocials/mdbSocials/Controller/SignupViewController.swift; sourceTree = "<absolute>"; };
+		8F2181EA240B3DD50035A5B2 /* Reference.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reference.storyboard; sourceTree = "<group>"; };
+		8F2181EC240B40A40035A5B2 /* NewSocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSocialViewController.swift; sourceTree = "<group>"; };
 		ACD590962401D18E005E2688 /* mdbSocials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mdbSocials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD590992401D18E005E2688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACD5909B2401D18E005E2688 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +72,7 @@
 			children = (
 				8F2181E1240A20A90035A5B2 /* SignupViewController.swift */,
 				ACD5909D2401D18E005E2688 /* LoginViewController.swift */,
+				8F2181EC240B40A40035A5B2 /* NewSocialViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 				ACD590A22401D190005E2688 /* Assets.xcassets */,
 				ACD590A42401D190005E2688 /* LaunchScreen.storyboard */,
 				ACD590A72401D190005E2688 /* Info.plist */,
+				8F2181EA240B3DD50035A5B2 /* Reference.storyboard */,
 			);
 			path = mdbSocials;
 			sourceTree = "<group>";
@@ -168,6 +174,7 @@
 			files = (
 				ACD590A62401D190005E2688 /* LaunchScreen.storyboard in Resources */,
 				ACD590AE2401D255005E2688 /* GoogleService-Info.plist in Resources */,
+				8F2181EB240B3DD50035A5B2 /* Reference.storyboard in Resources */,
 				ACD590A32401D190005E2688 /* Assets.xcassets in Resources */,
 				ACD590A12401D18E005E2688 /* Main.storyboard in Resources */,
 			);
@@ -240,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACD5909E2401D18E005E2688 /* LoginViewController.swift in Sources */,
+				8F2181ED240B40A50035A5B2 /* NewSocialViewController.swift in Sources */,
 				ACD5909A2401D18E005E2688 /* AppDelegate.swift in Sources */,
 				8F2181E2240A20A90035A5B2 /* SignupViewController.swift in Sources */,
 				ACD5909C2401D18E005E2688 /* SceneDelegate.swift in Sources */,
