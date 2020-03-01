@@ -7,13 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
-		AC98E250240A63F6005EB78A /* FeedView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC98E24F240A63F6005EB78A /* FeedView.storyboard */; };
-		AC98E254240A6434005EB78A /* FeedViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC98E253240A6434005EB78A /* FeedViewVC.swift */; };
-		AC98E257240A6761005EB78A /* FeedViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC98E256240A6761005EB78A /* FeedViewTableViewCell.swift */; };
-		AC98E259240A6935005EB78A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC98E258240A6935005EB78A /* DetailViewController.swift */; };
-		AC98E25B240AE3A9005EB78A /* FeedVC-TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC98E25A240AE3A9005EB78A /* FeedVC-TableView.swift */; };
-		AC98E264240B0ED5005EB78A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC98E263240B0ED5005EB78A /* Event.swift */; };
 		8F2181E2240A20A90035A5B2 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2181E1240A20A90035A5B2 /* SignupViewController.swift */; };
 		8F2181EB240B3DD50035A5B2 /* Reference.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2181EA240B3DD50035A5B2 /* Reference.storyboard */; };
 		8F2181ED240B40A50035A5B2 /* NewSocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2181EC240B40A40035A5B2 /* NewSocialViewController.swift */; };
@@ -30,12 +23,6 @@
 /* Begin PBXFileReference section */
 		08E57691D62488BFE2FF86A4 /* Pods-mdbSocials.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mdbSocials.debug.xcconfig"; path = "Target Support Files/Pods-mdbSocials/Pods-mdbSocials.debug.xcconfig"; sourceTree = "<group>"; };
 		6E46BF126D760BD32C59E632 /* Pods-mdbSocials.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mdbSocials.release.xcconfig"; path = "Target Support Files/Pods-mdbSocials/Pods-mdbSocials.release.xcconfig"; sourceTree = "<group>"; };
-		AC98E24F240A63F6005EB78A /* FeedView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedView.storyboard; sourceTree = "<group>"; };
-		AC98E253240A6434005EB78A /* FeedViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewVC.swift; sourceTree = "<group>"; };
-		AC98E256240A6761005EB78A /* FeedViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewTableViewCell.swift; sourceTree = "<group>"; };
-		AC98E258240A6935005EB78A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		AC98E25A240AE3A9005EB78A /* FeedVC-TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedVC-TableView.swift"; sourceTree = "<group>"; };
-		AC98E263240B0ED5005EB78A /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		8F2181E1240A20A90035A5B2 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignupViewController.swift; path = /Users/genustori07/Documents/GitHub/mdbSocials/mdbSocials/mdbSocials/Controller/SignupViewController.swift; sourceTree = "<absolute>"; };
 		8F2181EA240B3DD50035A5B2 /* Reference.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reference.storyboard; sourceTree = "<group>"; };
 		8F2181EC240B40A40035A5B2 /* NewSocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSocialViewController.swift; sourceTree = "<group>"; };
@@ -47,7 +34,7 @@
 		ACD590A22401D190005E2688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD590A52401D190005E2688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACD590A72401D190005E2688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACD590AD2401D255005E2688 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ACD590AD2401D255005E2688 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D543A3B100EA478D9E3C4F1C /* Pods_mdbSocials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mdbSocials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,54 +67,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AC98E25C240AF8B7005EB78A /* FeedVC */ = {
-			isa = PBXGroup;
-			children = (
-				AC98E24F240A63F6005EB78A /* FeedView.storyboard */,
-				AC98E253240A6434005EB78A /* FeedViewVC.swift */,
-				AC98E25A240AE3A9005EB78A /* FeedVC-TableView.swift */,
-			);
-			path = FeedVC;
-			sourceTree = "<group>";
-		};
-		AC98E25E240AF8E8005EB78A /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				AC98E263240B0ED5005EB78A /* Event.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		AC98E25F240AF8F4005EB78A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				AC98E256240A6761005EB78A /* FeedViewTableViewCell.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		AC98E260240AF8FB005EB78A /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				AC98E262240AF929005EB78A /* DetailViewController */,
-				AC98E25C240AF8B7005EB78A /* FeedVC */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		AC98E261240AF907005EB78A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		AC98E262240AF929005EB78A /* DetailViewController */ = {
-			isa = PBXGroup;
-			children = (
-				AC98E258240A6935005EB78A /* DetailViewController.swift */,
-			);
-			path = DetailViewController;
 		8F2181E02409F91B0035A5B2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,10 +98,6 @@
 		ACD590982401D18E005E2688 /* mdbSocials */ = {
 			isa = PBXGroup;
 			children = (
-				AC98E261240AF907005EB78A /* Resources */,
-				AC98E260240AF8FB005EB78A /* Controllers */,
-				AC98E25F240AF8F4005EB78A /* Views */,
-				AC98E25E240AF8E8005EB78A /* Models */,
 				8F2181E02409F91B0035A5B2 /* Controller */,
 				ACD590992401D18E005E2688 /* AppDelegate.swift */,
 				ACD5909B2401D18E005E2688 /* SceneDelegate.swift */,
@@ -239,7 +174,6 @@
 			files = (
 				ACD590A62401D190005E2688 /* LaunchScreen.storyboard in Resources */,
 				ACD590AE2401D255005E2688 /* GoogleService-Info.plist in Resources */,
-				AC98E250240A63F6005EB78A /* FeedView.storyboard in Resources */,
 				8F2181EB240B3DD50035A5B2 /* Reference.storyboard in Resources */,
 				ACD590A32401D190005E2688 /* Assets.xcassets in Resources */,
 				ACD590A12401D18E005E2688 /* Main.storyboard in Resources */,
@@ -312,18 +246,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC98E264240B0ED5005EB78A /* Event.swift in Sources */,
-				ACD5909E2401D18E005E2688 /* ViewController.swift in Sources */,
-				AC98E257240A6761005EB78A /* FeedViewTableViewCell.swift in Sources */,
-				ACD5909A2401D18E005E2688 /* AppDelegate.swift in Sources */,
-				AC98E259240A6935005EB78A /* DetailViewController.swift in Sources */,
 				ACD5909E2401D18E005E2688 /* LoginViewController.swift in Sources */,
 				8F2181ED240B40A50035A5B2 /* NewSocialViewController.swift in Sources */,
 				ACD5909A2401D18E005E2688 /* AppDelegate.swift in Sources */,
 				8F2181E2240A20A90035A5B2 /* SignupViewController.swift in Sources */,
 				ACD5909C2401D18E005E2688 /* SceneDelegate.swift in Sources */,
-				AC98E254240A6434005EB78A /* FeedViewVC.swift in Sources */,
-				AC98E25B240AE3A9005EB78A /* FeedVC-TableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
