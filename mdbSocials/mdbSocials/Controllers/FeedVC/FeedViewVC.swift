@@ -7,45 +7,55 @@
 //
 
 import UIKit
+import Firebase
 
 class FeedViewVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupArrayOfEvents()
+        
+        db = Firestore.firestore()
     }
     
     var arrayOfEvents: [Event]!
+    var selectedEvent: Event!
     
     func setupArrayOfEvents() {
-        arrayOfSnaps = []
-        let imageNames : [String] = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
-        let sentBy : [String] = ["Daniel", "Max", "Levi", "Robert A. Ackerman", "Zach", "Aayush", "Ayush", "Noah", "Tiger", "Mobi"]
-        let timeSent : [Date] = [Date(timeIntervalSince1970: 20),
-                                 Date(timeIntervalSince1970: 200),
-                                 Date(timeIntervalSince1970: 200),
-                                 Date(timeIntervalSince1970: 2000),
-                                 Date(timeIntervalSince1970: 20000),
-                                 Date(timeIntervalSince1970: 200000),
-                                 Date(timeIntervalSince1970: 2000000),
-                                 Date(timeIntervalSince1970: 20000000),
-                                 Date(timeIntervalSince1970: 200000000),
-                                 Date(timeIntervalSince1970: 2000000000),]
-        for i in 0 ..< imageNames.count {
-            let si = SnapImage(sentBy: sentBy[i], sentTo: "Me", timeSent: timeSent[i], image: UIImage(named: imageNames[i])!)
-            arrayOfSnaps.append(si)
+        
+        let db = Database.database().reference()
+        let eventNode = db.child("Events")
+        eventNode.observe(of: .value) { (snapshot) in
+            guard let eventDict = snapshot.value as? [String: [String: Any]] else {
+                print("eventDict error")
+                return
+            }
+            for(_, detail) in eventDict {
+                
+                let eventName : String = detail["name"]
+                let memberWhoPosted : String = detail["madeBy"]
+                let imageID : Int = detail["imageID"]
+                let numRSVP : Int = detail["numRSVP"]
+                let desc : String = detail["name"]
+                
+                let event = Event(name: eventName, memberWhoPosted: memberWhoPosted, numRSVP: numRSVP, image: imageID, desc: desc)
+                self.arrayOfEvents.append(event)
+                
+            }
+            self.tableView.reloadData()
         }
     }
     
     @IBAction func addEvent(_ sender: Any) {
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-        if segue.identifier == "toShowImage" {
-            let destination = segue.destination as! ShowImageVC
-            destination.snapImage = selectedImage
+        if segue.identifier == "toDetailView" {
+            let destination = segue.destination as! DetailViewController
+            
+            //change DetailView's parameters
+            destination.eventDisplayed = selectedEvent
         }
     }
     

@@ -9,18 +9,18 @@
 import UIKit
 
 class Event {
-    var sender: String
-    var sentTo: String
-    var timeSent: Date
-    var opened: Bool
+    var name: String
+    var memberWhoPosted: String
+    var numRSVP: Int
     var image: UIImage
+    var desc: String
     
-    init(sentBy: String, sentTo: String, timeSent: Date, image: UIImage) {
-        self.sender = sentBy
-        self.sentTo = sentTo
-        self.timeSent = timeSent
+    init(name: String, memberWhoPosted: String, numRSVP: Int, image: UIImage, desc: String) {
+        self.name = name
+        self.memberWhoPosted = memberWhoPosted
+        self.numRSVP = numRSVP
         self.image = image
-        self.opened = false
+        self.desc = desc
     }
 }
 
